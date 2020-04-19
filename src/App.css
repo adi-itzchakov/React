@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Alef&display=swap');
+
+body{
+    background-color:#d9b3ff;
+    font-family: 'Alef', sans-serif;
+    height: 100%;
+}
+
+button{
+    color:rgb(131, 18, 206);
+    background-color: transparent;
+    font-size: large;
+    min-width: 100px;
+    border-radius: 8px;
+}
+@media only screen and (max-width: 600px) 
+{
+    body{
+          width: 100%;
+    }
+    #img2{
+        width: 40%;
+        height: 25%;
+        margin-right: 100px;
+        margin-top: 230px;
+    }
+    #bubble{
+        width: 35%;
+        height: 20%;
+        margin-right: 60px;
+        margin-top: 120px;
+    }
+    #text{
+        width: 20%;
+        font-size: 8px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    #logo{
+        width: 20%;
+    }
+    .title{
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    #select{
+        margin-left: 20%;
+    }
+}
+
